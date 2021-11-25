@@ -1,0 +1,11 @@
+# default values for blocks
+default height:128 width:128 stroke:color(black) hit_points:2
+
+# block definitions
+bdef symbol:a fill-1:image(block_images/alad1.jpg) fill-2:image(block_images/alad2.jpg)
+
+
+# spacers definitions
+sdef symbol:- width:60
+sdef symbol:* width:30
+

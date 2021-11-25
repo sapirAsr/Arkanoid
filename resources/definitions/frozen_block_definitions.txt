@@ -1,0 +1,10 @@
+# default values for blocks
+default height:40 width:80 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:f fill:color(pink)
+#image(block_images/frozen.jpeg)
+
+
+# spacers definitions
+sdef symbol:- width:30

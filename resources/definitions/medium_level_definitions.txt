@@ -1,0 +1,89 @@
+# Level 1
+# DisneyLand
+
+
+START_LEVEL
+level_name:DisneyLand
+ball_velocities:30,10
+background:image(background_images/disneyland.jpg)
+paddle_speed:30
+paddle_width:160
+block_definitions:definitions/disneyland_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:80
+row_height:40
+num_blocks:1
+START_BLOCKS
+--ddddddd
+----dddddd
+------dddd
+--------ddd
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Frozen
+
+START_LEVEL
+level_name: Frozen
+ball_velocities:-60,10 -45,10 -30,15
+background:image(background_images/disney-frozen.jpg)
+paddle_speed:30
+paddle_width:300
+block_definitions:definitions/frozen_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:80
+row_height:40
+num_blocks:15
+START_BLOCKS
+-f---------------f
+--f-------------f
+----ffffff
+
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# Aladdin
+
+START_LEVEL
+level_name:Aladdin
+ball_velocities:45,10 60,10
+background:image(background_images/aladdin_bg.jpg)
+paddle_speed:30
+paddle_width:160
+block_definitions:definitions/aladdin_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:80
+row_height:128
+num_blocks:4
+START_BLOCKS
+--*aa--
+--*aa--
+END_BLOCKS
+END_LEVEL
+
+# Level 4
+# Cars
+
+START_LEVEL
+level_name:Cars
+ball_velocities:45,10 20,10
+background:image(background_images/cars_bg.jpg)
+paddle_speed:30
+paddle_width:160
+block_definitions:definitions/cars_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:80
+row_height:128
+num_blocks:4
+START_BLOCKS
+--cccccc--
+--cccccc--
+END_BLOCKS
+END_LEVEL
+
+
